@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de prueba para laboratorio 3">
+  <test thread-count="5" name="login invalido">
+    <classes>
+      <class name=".laboratorio3_ejercicio1"/>
+      
+    </classes>
+  </test> <!-- login invalido -->
+</suite> <!-- Suite de prueba para laboratorio 3 -->
+
