@@ -41,9 +41,12 @@ public class Laboratorio2 {
             WebElement email = waitLargo.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[data-qa='signup-email']")));
 			
             email.sendKeys("example@email.com");
-
-			System.out.println(enlaceProductos.getText());
-			System.out.println(enlaceRegistro.getText());
+            
+            String textoPorducto = enlaceProductos.getText();
+            String textoEnlaceRegistro = enlaceRegistro.getText();
+            
+			System.out.println(textoPorducto);
+			System.out.println(textoEnlaceRegistro);
 			System.out.println(nombre.isDisplayed());
 			System.out.println("Se muestra campo nombre: " + nombre.isDisplayed());
 			System.out.println("Se muestra formulario registro: " + bloqueRegistro.isDisplayed());
