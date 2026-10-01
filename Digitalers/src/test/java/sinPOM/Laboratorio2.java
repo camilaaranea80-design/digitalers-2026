@@ -1,3 +1,5 @@
+package sinPOM;
+
 import java.time.Duration;
 
 import org.junit.jupiter.api.Test;
